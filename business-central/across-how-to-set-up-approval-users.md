@@ -42,7 +42,7 @@ Before you can create workflows that involve approval steps, you must set up the
     |**Request Amount Approval Limit**|Specify the maximum amount in LCY that the user in the **User ID** field can approve for purchase quotes.<br /><br /> To use this field, you must select the **Approver Chain** option in the **Approver Limit Type** field on the **Workflow Response** page.|  
     |**Unlimited Request Approval**|Specify that the user in the **User ID** field can approve all purchase quotes regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Request Amount Approval Limit** field.|  
     |**Substitute**|Select the user ID of the user who must approve requests made by the user in the **User ID** field if the user in the **Approver ID** is not available. <br /><br />**Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).|  
-    |**Email**|Specify the email address of the user in the **User ID** field.|  
+    |**Email**|Specify the email address of the user in the **Approver ID** field.|  
     |**Approval Administrator**|Specify the user who has rights to unblock approval workflows, for example, by delegating approval requests to new substitute approvers and deleting overdue approval requests.|
 
     > [!Note]
